@@ -380,3 +380,12 @@ model_configs=[
 我们为每一个模型编写了训练命令，请参考本文档开头的表格。
 
 </details>
+
+<details>
+
+<summary>Step 5: LoRA续训</summary>
+
+加入`--pretrained_lora_path "./models/train/Qwen-Image_lora/epoch-4.safetensors" \`参数，即可接着`./models/train/Qwen-Image_lora/epoch-4.safetensors`进行续训。
+
+</details>
+
