@@ -380,3 +380,11 @@ Also, since the training script loads multiple modules (text encoder, dit, vae),
 We have written training commands for each model. Please refer to the table at the start of this document.
 
 </details>
+
+<details>
+
+<summary>Step 5: Resume LoRA Fine-Tuning</summary>
+
+Add the argument `--pretrained_lora_path "./models/train/Qwen-Image_lora/epoch-4.safetensors" \` to resume fine-tuning from the specified LoRA weights at `./models/train/Qwen-Image_lora/epoch-4.safetensors`.
+
+</details>
